@@ -1,0 +1,88 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+html {
+    color: dimgray;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-header {
+    text-align: center;
+    padding-top: 0.5em;
+    margin-top: 1em;
+    border-top: solid 2px grey;
+}
+
+.project-container {
+    padding: 1em;
+    border-right: dotted 1px grey;
+}
+
+.project-container.last {
+    border-right: none;
+}
+
+.project-links {
+    /*text-align: center;*/
+}
+
+a, .pure-menu-link, .pure-button {
+    color: #81a0ff;
+}
+
+#top-menu-sm {
+    display: none;
+    text-align: center;
+}
+
+#top-menu-lg {
+    text-align: center;
+    margin-top: -2em;
+}
+
+#bottom-menu {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+#title {
+    display: block;
+    margin-top: -2em;
+}
+
+#skills h3 {
+    text-align: center;
+}
+
+#skills ul li {
+    background-color: #c4d0ff;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .project-container {
+        border-right: none;
+        border-bottom: dotted 1px grey;
+    }
+
+    .project-container.last {
+        border-bottom: none;
+    }
+
+    #top-menu-lg {
+        display: none;
+    }
+
+    #top-menu-sm {
+        display: block;
+    }
+}
